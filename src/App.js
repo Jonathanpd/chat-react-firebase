@@ -44,6 +44,7 @@ const SunIcon = props => (
   >
     <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
   </svg>
+  
 );
 
 function App() {
@@ -51,8 +52,10 @@ function App() {
   const [darkMode, setDarkMode] = useDarkMode();
 
   const brandLogo = darkMode
-    ? `${process.env.PUBLIC_URL}/logo_white.svg`
-    : `${process.env.PUBLIC_URL}/logo.svg`;
+    //? `${process.env.PUBLIC_URL}/logo_white.svg`
+    //: `${process.env.PUBLIC_URL}/logo.svg`;
+    ? `${process.env.PUBLIC_URL}/logo_simej-ead.png`
+    : `${process.env.PUBLIC_URL}/logo_simej-ead.png`;
 
   const ThemeIcon = darkMode ? SunIcon : MoonIcon;
 
