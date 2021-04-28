@@ -94,7 +94,7 @@ const Channel = ({ user = null }) => {
             disabled={!newMessage}
             className="uppercase font-semibold text-sm tracking-wider text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors"
           >
-            Enviar
+            Send
           </button>
         </form>
       </div>
