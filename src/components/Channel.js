@@ -59,7 +59,8 @@ const Channel = ({ user = null }) => {
               <p className="mb-3">Chat em tempo real</p>
             </div>
             <p className="text-gray-400 text-center">
-              Mais uma solução SIMEJ EAD
+              Mais uma solução SIMEJ EAD<br /><br />
+              [Vídeo aqui]
             </p>
           </div>
           <ul>
