@@ -11,7 +11,7 @@ import Loader from './components/Loader';
 
 firebase.initializeApp({
   apiKey: "AIzaSyAVZlTC1OO3ZrwzZyGJMEKeWvO-CM2OPoE",
-    authDomain: "chat-app-74349.firebaseapp.com",
+    authDomain: "chat-react-firebase-two.vercel.app",
     databaseURL: "https://chat-app-74349-default-rtdb.firebaseio.com",
     projectId: "chat-app-74349",
     storageBucket: "chat-app-74349.appspot.com",
