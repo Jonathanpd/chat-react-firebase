@@ -98,7 +98,7 @@ function App() {
             Chat usando React + Firebase
           </h2>
           <p className="mb-8 text-lg text-center">
-            Mais uma solução SIMEJ EAD - Para Para Escolas.
+            Mais uma solução SIMEJ EAD Para Escolas.
           </p>
           <button
             onClick={signInWithGoogle}
