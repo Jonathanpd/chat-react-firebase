@@ -86,7 +86,7 @@ const Channel = ({ user = null }) => {
             type="text"
             value={newMessage}
             onChange={handleOnChange}
-            placeholder="Type your message here..."
+            placeholder="Escreva sua mensagem aqui..."
             className="flex-1 bg-transparent outline-none"
           />
           <button
@@ -94,7 +94,7 @@ const Channel = ({ user = null }) => {
             disabled={!newMessage}
             className="uppercase font-semibold text-sm tracking-wider text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors"
           >
-            Send
+            Enviar
           </button>
         </form>
       </div>
