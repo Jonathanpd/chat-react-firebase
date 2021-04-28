@@ -11,13 +11,12 @@ import Loader from './components/Loader';
 
 firebase.initializeApp({
   apiKey: "AIzaSyAVZlTC1OO3ZrwzZyGJMEKeWvO-CM2OPoE",
-    authDomain: "chat-app-74349.firebaseapp.com",
-    databaseURL: "https://chat-app-74349-default-rtdb.firebaseio.com",
-    projectId: "chat-app-74349",
-    storageBucket: "chat-app-74349.appspot.com",
-    messagingSenderId: "308010863611",
-    appId: "1:308010863611:web:e7314221271790b91d995e",
-    measurementId: "G-QWRE9WR517"
+  authDomain: "chat-app-74349.firebaseapp.com",
+  projectId: "chat-app-74349",
+  storageBucket: "chat-app-74349.appspot.com",
+  messagingSenderId: "308010863611",
+  appId: "1:308010863611:web:8dbd53e3d3e9810a1d995e",
+  measurementId: "G-PH06ZCSZYS"
 });
 
 const MoonIcon = props => (
